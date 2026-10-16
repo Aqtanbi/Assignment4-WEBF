@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part-1</title>
+    <link rel="stylesheet" href="part-1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="logo" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="part-1.html">Part-1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="part-2.html">Part-2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="part-3.html">Part-3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main class="main">
+        <div class="form">
+            <h2>Contact form</h2>
+            <form action="">
+                
+                <div class="form-level-1">
+                
+                    <div class="fname">
+                        <label for="fname">Name:</label>
+                        <input type="text" placeholder="Enter your full name" id="fname" name="name" required maxlength="30" minlength="2">
+                    </div>
+                
+                    <div class="femail">
+                        <label for="femail">Email:</label>
+                        <input type="email" name="email" placeholder="example@email.com" required id="femail">
+                    </div>
+                
+                </div>
+
+                <div class="form-level-2">
+                    <label for="fmessage">Message:</label>
+                    <br>
+                    <textarea name="message" id="fmessage" rows="5" maxlength="150" required placeholder="Write your message here..."></textarea>
+                </div>
+
+                <div class="form-level-3">
+                    <input type="submit" value="Submit" id="fsubmit">
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>
